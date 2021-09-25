@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/room-landing-page/static/css/main.a98b93bd.chunk.css",
+    "main.js": "/room-landing-page/static/js/main.68dd86d4.chunk.js",
+    "main.js.map": "/room-landing-page/static/js/main.68dd86d4.chunk.js.map",
+    "runtime-main.js": "/room-landing-page/static/js/runtime-main.b561d7a2.js",
+    "runtime-main.js.map": "/room-landing-page/static/js/runtime-main.b561d7a2.js.map",
+    "static/js/2.15d849c9.chunk.js": "/room-landing-page/static/js/2.15d849c9.chunk.js",
+    "static/js/2.15d849c9.chunk.js.map": "/room-landing-page/static/js/2.15d849c9.chunk.js.map",
+    "index.html": "/room-landing-page/index.html",
+    "static/css/main.a98b93bd.chunk.css.map": "/room-landing-page/static/css/main.a98b93bd.chunk.css.map",
+    "static/js/2.15d849c9.chunk.js.LICENSE.txt": "/room-landing-page/static/js/2.15d849c9.chunk.js.LICENSE.txt",
+    "static/media/desktop-image-hero-1.91901d0d.jpg": "/room-landing-page/static/media/desktop-image-hero-1.91901d0d.jpg",
+    "static/media/desktop-image-hero-2.9d354056.jpg": "/room-landing-page/static/media/desktop-image-hero-2.9d354056.jpg",
+    "static/media/desktop-image-hero-3.05fd679a.jpg": "/room-landing-page/static/media/desktop-image-hero-3.05fd679a.jpg",
+    "static/media/icon-angle-left.d53877df.svg": "/room-landing-page/static/media/icon-angle-left.d53877df.svg",
+    "static/media/icon-angle-right.0ed3f81f.svg": "/room-landing-page/static/media/icon-angle-right.0ed3f81f.svg",
+    "static/media/image-about-dark.329bbc44.jpg": "/room-landing-page/static/media/image-about-dark.329bbc44.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b561d7a2.js",
+    "static/js/2.15d849c9.chunk.js",
+    "static/css/main.a98b93bd.chunk.css",
+    "static/js/main.68dd86d4.chunk.js"
+  ]
+}
