@@ -1,0 +1,87 @@
+@import '../../utils/variables/style-variables';
+
+.arrow {
+	background: $color-secondary;
+	border-radius: 99px;
+	&::after,
+	&::before {
+		content: '';
+		display: block;
+		width: 3px;
+		border-radius: 99px;
+		height: 12px;
+		background: $color-secondary;
+		position: relative;
+		left: 36px;
+	}
+	&::after {
+		top: -13px;
+		transform: rotateZ(45deg);
+	}
+
+	&::before {
+		top: -8px;
+		transform: rotateZ(-45deg);
+	}
+}
+.arrow-thin {
+	height: 3px;
+}
+.arrow-normal {
+	height: 4px;
+	&::after,
+	&::before {
+		width: 4px;
+	}
+	&::before {
+		top: -7px;
+	}
+}
+.arrow-thick {
+	height: 5px;
+	&::after,
+	&::before {
+		width: 5px;
+	}
+
+	&::before {
+		top: -6px;
+	}
+}
+
+@mixin arrowWidth($widthVal) {
+	width: $widthVal;
+	&::after,
+	&::before {
+		left: $widthVal - 4;
+	}
+}
+
+.arrow-w24 {
+	@include arrowWidth(24px);
+}
+.arrow-w32 {
+	@include arrowWidth(32px);
+}
+.arrow-w40 {
+	@include arrowWidth(40px);
+}
+.arrow-w48 {
+	@include arrowWidth(48px);
+}
+.arrow-w56 {
+	@include arrowWidth(56px);
+}
+.arrow-w64 {
+	@include arrowWidth(64px);
+}
+
+.arrow-up {
+	transform: rotateZ(-90deg);
+}
+.arrow-down {
+	transform: rotateZ(90deg);
+}
+.arrow-left {
+	transform: rotateZ(180deg);
+}
